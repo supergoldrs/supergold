@@ -1,0 +1,133 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+html{
+	width: 100%;
+	height: 100%;
+}
+
+.contenedor{
+	width: 100%;
+	height: 100%;
+}
+
+header{
+	width: 100%;
+	height: 12%;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2c539e+0,2c539e+100;Blue+3D+%232 */
+	background: #2c539e; /* Old browsers */
+	background: -moz-linear-gradient(top, #2c539e 0%, #2c539e 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #2c539e 0%,#2c539e 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #2c539e 0%,#2c539e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c539e', endColorstr='#2c539e',GradientType=0 ); /* IE6-9 */
+	border-bottom: 5px solid brown;
+}
+
+.logo{
+	float: left;
+}
+
+.opciones{
+	float: left;
+}
+
+.opciones a{
+	text-decoration: none;
+	color: rgb(255,255,255);
+}
+.opciones ul{
+	margin-top: 40px;
+	margin-left: 100px;
+	list-style: none;
+	color: white;
+	font-size: 25px;
+	list-style:none;
+	display: inline-flex;
+}
+
+.opciones ul li{
+	margin-left: 60px;
+}
+
+.opciones ul li:hover{
+	cursor: pointer;
+	color: brown;
+}
+
+.img-presentacion{
+	background-image: url(../img/fondo.png);
+	background-size: 100%, 100%;
+	width: 100%;
+	height: 88%;
+	background-repeat: no-repeat;
+
+}
+
+.informacion{
+	color: white;
+	width: 600px;
+	height: 350px;
+	background-color: rgb(0,0,0,0.5);
+	border-radius: 5px;
+	font-size: 30px;
+	text-align: justify;
+	padding: 20px;
+	position: relative;
+	top: 50px;
+	left: 100px;
+	
+	
+}
+
+.informacion h1{
+	font-size: 40px;
+	text-align: center;
+}
+
+.informacion p{
+	margin-top: 25px;
+	text-transform: capitalize;
+}
+
+.informacion img{
+	margin-left: 50px;
+}
+
+.servicio{
+
+	width: 90%;
+	height: 80%;
+	padding: 20px;
+	font-size: 25px;
+	background-color: rgb(0,0,0,0.5);
+	color: rgb(255,255,255);
+ 	word-wrap: break-word;
+ 	margin: auto;
+ 	position: relative;
+ 	top: 25px;
+
+
+}
+
+.servicio p{
+
+	margin-top: 20px;
+	text-transform: capitalize;
+
+
+
+}
